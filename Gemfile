@@ -16,6 +16,7 @@ gem "rails-controller-testing"
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :production do
   gem "pg", "0.20.0"
