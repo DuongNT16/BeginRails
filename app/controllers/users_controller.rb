@@ -9,6 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.micropost.page(params[:page]).per(10)
   end
 
   def new
