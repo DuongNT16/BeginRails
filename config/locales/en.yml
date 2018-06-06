@@ -20,6 +20,12 @@ en:
       update: "Profile update"
       delete: "User deleted"
       please_login: "Please log in"
+      please_check_email: "Please check your email to activate your account."
+    sessions:
+      not_activate: "Account not activated. Check your email for the activation link."
+    account_activation:
+      activate: "Account activated!"
+      invalid_link: "Invalid activation link"
   helper:
     application: 
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -49,4 +55,7 @@ en:
     sessions:
       new:
         invalid_email: "Invalid email/password combination"
+    account_activation:
+      html:
+        wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
 
