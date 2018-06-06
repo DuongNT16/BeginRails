@@ -14,7 +14,12 @@ en:
   profile: "Profile"
   settings: "Settings"
   logout: "Logout"
+  delete: Delete
   controller:
+    users:
+      update: "Profile update"
+      delete: "User deleted"
+      please_login: "Please log in"
   helper:
     application: 
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -36,6 +41,11 @@ en:
       new:
         create: "Create my account"
         confirmation: "Confirmation"
+      index:
+        all_user: "All users"
+        you_sure: "You sure?"
+      edit:
+        update_profile: "Update your profile"
     sessions:
       new:
         invalid_email: "Invalid email/password combination"
