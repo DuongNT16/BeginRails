@@ -6,17 +6,21 @@ git_source(:github) do |repo_name|
 end
 
 gem "bcrypt", "3.1.12"
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
+gem "faker", "~> 1.6", ">= 1.6.6"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails", "~> 4.3", ">= 4.3.1"
+gem "kaminari"
 gem "puma", "~> 3.7"
 gem "rails", "~> 5.1.6"
 gem "rails-controller-testing"
+gem "ransack"
 gem "sass-rails", "~> 5.0"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
-gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :production do
   gem "pg", "0.20.0"
