@@ -5,7 +5,11 @@ en:
   contact: "Contact"
   new: "New"
   home: "Home"
+  forgot_pass: "Forgot password"
+  acc_activate: "Account activation"
+  pass_reset: "Password reset"
   help: "Help"
+  please_login: "Please log in."
   login: "Login"
   sample_app: "Sample app"
   singup: "Sign up"
@@ -15,6 +19,10 @@ en:
   settings: "Settings"
   logout: "Logout"
   delete: Delete
+  submit: "Submit"
+  activate: "Activate"
+  edit_user: "Edit user"
+  save_change: "Save change"
   controller:
     users:
       update: "Profile update"
@@ -26,6 +34,14 @@ en:
     account_activation:
       activate: "Account activated!"
       invalid_link: "Invalid activation link"
+    micropost:
+      mr_success: "Miropost created!"
+      mr_delete: "Miropost delete"
+    password:
+      info: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      reset: "Password has been reset."
+      pass_expired: "Password reset has ."
   helper:
     application: 
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -38,11 +54,13 @@ en:
         by: "by"
     shared: 
       error: "The form contains"
+      profile: "view my profile"
     static_pages:
       home:
         h2_content_01: "This is the home page for the"
         h2_content_02: "sample application."
         gnup_now: "Sign up now!"
+        micropost_feed: "Micropost Feed"
     users:
       new:
         create: "Create my account"
@@ -52,9 +70,13 @@ en:
         you_sure: "You sure?"
       edit:
         update_profile: "Update your profile"
+      follow:
+        follow: "Follow"
+        not_follow: "Unfollow"
     sessions:
       new:
         invalid_email: "Invalid email/password combination"
+        remember: "Remember me on this computer"
     account_activation:
       html:
         wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
